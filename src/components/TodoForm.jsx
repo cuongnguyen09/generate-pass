@@ -247,11 +247,15 @@ function TodoForm({ addTodo, todos }) {
   const companyList = [
     {
       value: 1,
-      label: "LEL",
+      label: "FB",
     },
     {
       value: 2,
-      label: "LEX",
+      label: "TFB",
+    },
+    {
+      value: 3,
+      label: "TB",
     },
   ];
 
