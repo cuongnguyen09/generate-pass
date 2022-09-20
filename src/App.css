@@ -1,0 +1,150 @@
+.App {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(219, 219, 219);
+  /* margin: 20px auto; */
+  /* width: 90%; */
+  /* max-width: 800px; */
+ }
+ 
+ * App.css
+ 
+ .todo-list ul {
+  padding: 0 10px 10px 10px;
+  list-style-type: none;
+ }
+ 
+ .text-bios{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+ }
+
+ .todo-list li {
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 4px;
+  background: rgb(240, 240, 240);
+  color: black;
+ }
+ 
+ .todo-list li input[type='checkbox'] {
+  -ms-transform: scale(2); 
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2); 
+  transform: scale(2);
+  padding: 10px;
+  float: right;
+ }
+
+ .todo-list li button {
+  float: right;
+  margin-right: 20px;
+ }
+ 
+ .todo-list li button:hover {
+  cursor: pointer;
+  background: red;
+  color: white;
+ }
+
+
+ .formWidth{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .form-todo{
+  margin-top: 10px;
+  padding: 20px 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background-color: rgb(88, 65, 65); */
+  /* color: white; */
+ }
+
+ .checktext{
+  display: flex;
+  margin-top: 10px;
+  /* padding: 0 10px 0 5px; */
+  justify-content: center;
+  /* background-color: rgb(180, 108, 180);
+  color: white; */
+  border-radius: 5px;
+ }
+
+ .checktext > ol > li {
+  font-size: 16px;
+ }
+
+ .checktext > ol > li:hover {
+  color: rgb(224, 189, 189);
+ }
+
+ .spanDelete{
+  /* padding-left: 10px; */
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+ }
+
+ .spanDelete:hover{
+  cursor: pointer;
+  color: red;
+ }
+
+
+ label {
+  padding-left: 12px;
+ }
+
+ label > select {
+  margin-left: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+label > select > option{
+  background-color: black;
+  color: white;
+}
+
+
+form > input:nth-child(2) {
+  margin: 0 0 5px 5px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+form > input:nth-child(3) {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table{
+  width: 100%;
+}
+
+td:hover{
+  background-color: wheat;
+  color: black;
+  cursor: pointer;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+.h1-heading{
+  margin-top:-10px;
+}
+
+.form-todo > img {
+  margin-top: -20px;
+}
